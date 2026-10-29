@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+    height: 100vh;           /* Usa a altura total da tela */
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Deixa a caixa com visual de cartão */
+.caixa {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
